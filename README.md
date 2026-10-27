@@ -1,16 +1,18 @@
 # Trading AI Analyzer
 
+**Language / Sprache / Język:** 🇬🇧 **English** · 🇩🇪 [Deutsch](README.de.md) · 🇵🇱 [Polski](README.pl.md)
+
 A Python-based market analysis prototype combining technical indicators, support and resistance levels, volume analysis, anomaly detection and interactive visualizations.
 
 ## My first steps into coding
 
 This repository marks an important point in my journey into software development: my first working code project.
 
-I built the initial version in **Google Colab**, using access to **Google Labs beta-testing tools** as part of an AI-assisted development workflow. The experience was less about starting as an experienced programmer and more about learning by experimenting: turning an idea into a working prototype, testing generated code, understanding how individual modules fit together, and iterating when something did not work.
+I built the initial version in **Google Colab**, using access to **Google Labs beta-testing tools** as part of an AI-assisted development workflow. The experience was about learning through experimentation: turning an idea into a working prototype, testing the code, understanding how individual modules fit together, and iterating when something did not work.
 
 The project helped me explore how data can be fetched, transformed, analysed and presented in a practical application. It also strengthened my interest in Python, data analysis, automation and using AI tools responsibly as a development aid.
 
-This origin is part of the project's story. It is an early learning project, not a claim that every line was written manually or that the prototype is production-ready.
+This is an early learning and prototyping project. I do not claim that every line was written manually or that the prototype is production-ready.
 
 ## Features
 
@@ -29,13 +31,13 @@ Python · Google Colab · Streamlit · pandas · NumPy · scikit-learn · Plotly
 
 ## Run locally
 
-Install the dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Start the Streamlit application:
+Start the application:
 
 ```bash
 streamlit run app.py
