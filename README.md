@@ -1,31 +1,57 @@
 # Trading AI Analyzer
 
-This repository contains a complete trading AI analyzer built with various modules for data fetching, indicators, volume analysis, anomaly detection, and more.
+A Python-based market analysis prototype combining technical indicators, support and resistance levels, volume analysis, anomaly detection and interactive visualizations.
 
-## Installation
+## My first steps into coding
 
-Run the following command to install the required packages:
-```
+This repository marks an important point in my journey into software development: my first working code project.
+
+I built the initial version in **Google Colab**, using access to **Google Labs beta-testing tools** as part of an AI-assisted development workflow. The experience was less about starting as an experienced programmer and more about learning by experimenting: turning an idea into a working prototype, testing generated code, understanding how individual modules fit together, and iterating when something did not work.
+
+The project helped me explore how data can be fetched, transformed, analysed and presented in a practical application. It also strengthened my interest in Python, data analysis, automation and using AI tools responsibly as a development aid.
+
+This origin is part of the project's story. It is an early learning project, not a claim that every line was written manually or that the prototype is production-ready.
+
+## Features
+
+- Market data retrieval with `yfinance`
+- Technical indicators and market levels
+- Support and resistance clustering with DBSCAN
+- Volume spike analysis
+- Anomaly detection using Isolation Forest
+- Pattern-based signal generation
+- Interactive charts with Plotly
+- Streamlit interface
+
+## Technology
+
+Python · Google Colab · Streamlit · pandas · NumPy · scikit-learn · Plotly · yfinance
+
+## Run locally
+
+Install the dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+Start the Streamlit application:
 
-Launch the Streamlit app using:
-```
+```bash
 streamlit run app.py
 ```
 
-## Modules
+## Project modules
 
-- `data_fetcher.py`: Fetches market data using yfinance.
-- `indicators.py`: Contains functions for various technical indicators.
-- `levels.py`: Computes support/resistance levels using DBSCAN.
-- `volume_analysis.py`: Analyzes volume data and detects spikes.
-- `anomaly_detector.py`: Implements Isolation Forest for detecting anomalies.
-- `signal_generator.py`: Generates trading signals based on patterns.
-- `visualizer.py`: Creates interactive charts using Plotly.
+- `data_fetcher.py` — retrieves market data
+- `indicators.py` — calculates technical indicators
+- `levels.py` — identifies support and resistance levels using DBSCAN
+- `volume_analysis.py` — analyses volume and detects spikes
+- `anomaly_detector.py` — identifies unusual observations with Isolation Forest
+- `signal_generator.py` — generates pattern-based signals
+- `visualizer.py` — creates interactive Plotly charts
+- `config.py` — contains configurable parameters
 
-## Configuration
+## Status
 
-Configuration parameters can be customized in `config.py`.
+An experimental learning and prototyping project. Market signals are analytical outputs only and should not be treated as financial advice or as proof of a profitable trading strategy.
